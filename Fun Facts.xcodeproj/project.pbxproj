@@ -83,10 +83,10 @@
 		D30C56191ABDC3AF00B6B2B1 /* Fun Facts */ = {
 			isa = PBXGroup;
 			children = (
+				D3604E401ADCB07200199BA2 /* Controller */,
+				D3604E3F1ADCB06C00199BA2 /* View */,
+				D3604E3E1ADCB06700199BA2 /* Model */,
 				D30C561C1ABDC3AF00B6B2B1 /* AppDelegate.swift */,
-				D30C563E1ABE58EB00B6B2B1 /* FactBook.swift */,
-				D30C561E1ABDC3AF00B6B2B1 /* ViewController.swift */,
-				D30C56201ABDC3AF00B6B2B1 /* Main.storyboard */,
 				D30C56231ABDC3AF00B6B2B1 /* Images.xcassets */,
 				D30C56251ABDC3AF00B6B2B1 /* LaunchScreen.xib */,
 				D30C561A1ABDC3AF00B6B2B1 /* Supporting Files */,
@@ -126,6 +126,30 @@
 				D30C563C1ABDD09100B6B2B1 /* ScratchPad.playground */,
 			);
 			name = Playgrounds;
+			sourceTree = "<group>";
+		};
+		D3604E3E1ADCB06700199BA2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D30C563E1ABE58EB00B6B2B1 /* FactBook.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		D3604E3F1ADCB06C00199BA2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D30C56201ABDC3AF00B6B2B1 /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		D3604E401ADCB07200199BA2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D30C561E1ABDC3AF00B6B2B1 /* ViewController.swift */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
